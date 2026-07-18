@@ -282,3 +282,58 @@ font-size:28px;
 }
 
 }
+#metodologia{
+background:white;
+}
+
+#modalidades{
+background:#eef4fb;
+}
+
+#opiniones{
+background:white;
+}
+
+.card p{
+margin-top:15px;
+color:#555;
+font-size:.95rem;
+}
+
+footer h3{
+font-size:2rem;
+margin-bottom:10px;
+}
+
+.redes{
+display:flex;
+justify-content:center;
+gap:20px;
+margin:25px 0;
+}
+
+.redes a{
+width:55px;
+height:55px;
+background:white;
+color:#123B73;
+display:flex;
+justify-content:center;
+align-items:center;
+border-radius:50%;
+font-size:24px;
+text-decoration:none;
+transition:.3s;
+}
+
+.redes a:hover{
+transform:translateY(-5px);
+background:#25D366;
+color:white;
+}
+
+.copyright{
+opacity:.8;
+font-size:.9rem;
+margin-top:20px;
+}
