@@ -1,2 +1,2 @@
 # claseslavoisier-
-Clases particulares en ciencias exactas 
+Clases particulares en materias de ciencias exactas y naturales. Para todos los niveles. Ingresos y regulares. 
