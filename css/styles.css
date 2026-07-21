@@ -282,3 +282,11 @@ font-size:28px;
 }
 
 }
+.cards a{
+    text-decoration:none;
+    color:inherit;
+}
+
+.cards a:hover{
+    color:inherit;
+}
