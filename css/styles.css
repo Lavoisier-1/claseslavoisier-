@@ -290,3 +290,92 @@ font-size:28px;
 .cards a:hover{
     color:inherit;
 }
+.contenido{
+
+max-width:900px;
+
+margin:120px auto;
+
+padding:40px;
+
+background:white;
+
+border-radius:20px;
+
+box-shadow:0 10px 30px rgba(0,0,0,.08);
+
+}
+
+.contenido h1{
+
+color:#123B73;
+
+margin-bottom:20px;
+
+}
+
+.contenido h2{
+
+margin-top:40px;
+
+margin-bottom:15px;
+
+color:#0B5FA5;
+
+}
+
+.contenido p{
+
+margin-bottom:15px;
+
+}
+
+.contenido pre{
+
+background:#eef5fb;
+
+padding:20px;
+
+border-radius:10px;
+
+overflow:auto;
+
+font-size:18px;
+
+margin:20px 0;
+
+}
+
+.contenido table{
+
+width:100%;
+
+border-collapse:collapse;
+
+margin:25px 0;
+
+}
+
+.contenido th{
+
+background:#123B73;
+
+color:white;
+
+padding:12px;
+
+}
+
+.contenido td{
+
+padding:12px;
+
+border:1px solid #ddd;
+
+}
+
+.contenido li{
+
+margin:10px 0;
+
+}
