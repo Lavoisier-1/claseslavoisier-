@@ -379,3 +379,79 @@ border:1px solid #ddd;
 margin:10px 0;
 
 }
+/* ===== CAJAS DE CONTENIDO ===== */
+
+.caja{
+    margin:30px 0;
+    padding:22px;
+    border-radius:14px;
+    border-left:8px solid;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+}
+
+.caja h3{
+    margin-top:0;
+    margin-bottom:12px;
+    font-size:1.2rem;
+}
+
+.caja p,
+.caja li{
+    margin-bottom:10px;
+    line-height:1.7;
+}
+
+/* Definición */
+
+.definicion{
+    background:#eef6ff;
+    border-color:#1976d2;
+}
+
+.definicion h3{
+    color:#1976d2;
+}
+
+/* Ejemplo */
+
+.ejemplo{
+    background:#eefcf2;
+    border-color:#2e7d32;
+}
+
+.ejemplo h3{
+    color:#2e7d32;
+}
+
+/* Importante */
+
+.importante{
+    background:#fff8e6;
+    border-color:#f9a825;
+}
+
+.importante h3{
+    color:#d48806;
+}
+
+/* Error frecuente */
+
+.error{
+    background:#fdecec;
+    border-color:#d32f2f;
+}
+
+.error h3{
+    color:#c62828;
+}
+
+/* Consejo */
+
+.consejo{
+    background:#eefbff;
+    border-color:#00acc1;
+}
+
+.consejo h3{
+    color:#00838f;
+}
