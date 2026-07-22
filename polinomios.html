@@ -1,40 +1,93 @@
+
 <!DOCTYPE html>
 <html lang="es">
 
 <head>
 
-...
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Matemática | Clases Lavoisier</title>
+
+<link rel="stylesheet" href="css/styles.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
 </head>
 
 <body>
 
 <nav>
-...
+
+<div class="logo">
+
+<a href="index.html">
+
+<img src="images/logo.png">
+
+</a>
+
+</div>
+
+<ul>
+
+<li><a href="index.html">Inicio</a></li>
+
+<li><a href="#temas">Temas</a></li>
+
+<li><a href="#contacto">Contacto</a></li>
+
+</ul>
+
 </nav>
 
-<section class="contenido">
+<header class="hero">
+
+<div class="overlay">
+
+<h1>Matemática</h1>
+
+<p>
+
+Desde nivel secundario hasta universitario.
+
+</p>
+
+</div>
+
+</header>
+
+<section id="temas">
+
+<h2>Temas</h2>
+
+<div class="cards">
+
+<a class="card" href="#">
 
 <section class="contenido">
 
 <h1>Polinomios</h1>
 
-<p>Un polinomio es una expresión algebraica formada por la suma o resta de uno o más monomios.</p>
+<p>
+Un polinomio es una expresión algebraica formada por la suma o resta de uno o más monomios.
+</p>
 
 <h2>¿Qué es un polinomio?</h2>
 
-<p>
-Ejemplo:
-</p>
+<p>Ejemplo:</p>
 
 <pre>
 P(x)=3x²−5x+2
 </pre>
 
 <ul>
-<li>Coeficientes: 3, -5 y 2</li>
-<li>Variable: x</li>
-<li>Grado: 2</li>
-<li>Término independiente: 2</li>
+<li><strong>Coeficientes:</strong> 3, -5 y 2</li>
+<li><strong>Variable:</strong> x</li>
+<li><strong>Grado:</strong> 2</li>
+<li><strong>Término independiente:</strong> 2</li>
 </ul>
 
 <h2>Clasificación</h2>
@@ -68,12 +121,36 @@ P(x)=3x²−5x+2
 
 </table>
 
-<h2>Suma</h2>
+<h2>Grado de un polinomio</h2>
+
+<p>
+El grado es el mayor exponente de la variable.
+</p>
 
 <pre>
-(3x²+2x)+(x²−4x)
+4x⁵−2x+8
+</pre>
 
-=4x²−2x
+<p>
+Grado = 5
+</p>
+
+<h2>Suma de polinomios</h2>
+
+<pre>
+(3x²+2x+5)+(x²−4x+1)
+
+=(3x²+x²)+(2x−4x)+(5+1)
+
+=4x²−2x+6
+</pre>
+
+<h2>Resta de polinomios</h2>
+
+<pre>
+(5x²+x−3)−(2x²−4x+1)
+
+=3x²+5x−4
 </pre>
 
 <h2>Multiplicación</h2>
@@ -81,8 +158,44 @@ P(x)=3x²−5x+2
 <pre>
 (x+2)(x+3)
 
+=x²+3x+2x+6
+
 =x²+5x+6
 </pre>
+
+<h2>Productos notables</h2>
+
+<h3>Cuadrado de un binomio</h3>
+
+<pre>
+(a+b)²=a²+2ab+b²
+</pre>
+
+<h3>Diferencia de cuadrados</h3>
+
+<pre>
+a²−b²=(a−b)(a+b)
+</pre>
+
+<h2>Factorización</h2>
+
+<p>
+Los métodos más utilizados son:
+</p>
+
+<ul>
+
+<li>Factor común</li>
+
+<li>Diferencia de cuadrados</li>
+
+<li>Trinomio cuadrado perfecto</li>
+
+<li>Agrupación</li>
+
+<li>Ruffini</li>
+
+</ul>
 
 <h2>Ejemplo resuelto</h2>
 
@@ -92,41 +205,110 @@ P(x)=3x²−5x+2
 x²−9
 </pre>
 
-<p>Resultado:</p>
+<p>Como 9 = 3²:</p>
 
 <pre>
-(x−3)(x+3)
+x²−3²
+
+=(x−3)(x+3)
 </pre>
 
 <h2>Ejercicios</h2>
 
 <ol>
 
-<li>x²−25</li>
+<li>Factorizar x²−25.</li>
 
-<li>2x²+7x+3</li>
+<li>Resolver (x+5)(x−2).</li>
 
-<li>3x(x−2)+5(x−2)</li>
+<li>Simplificar (4x²+3x)−(2x²−5x).</li>
+
+<li>Factorizar 3x(x−2)+5(x−2).</li>
 
 </ol>
 
+<h2>¿Necesitás ayuda?</h2>
+
+<p>
+Podés preparar parciales, finales o reforzar este tema con clases personalizadas.
+</p>
+
 <a class="btn whatsapp"
-
 href="https://wa.me/5491167036160?text=Hola,%20quiero%20una%20clase%20sobre%20Polinomios."
-
 target="_blank">
 
 Consultar una clase sobre Polinomios
 
 </a>
 
-</section>
+<p style="margin-top:50px;text-align:center;">
+
+<a class="btn instagram"
+href="funciones.html">
+
+Siguiente tema → Funciones
+
+</a>
+
+</p>
 
 </section>
 
-<footer>
-...
-</footer>
+<a class="card" href="#">
+
+<h3>Funciones</h3>
+
+</a>
+
+<a class="card" href="#">
+
+<h3>Logaritmos</h3>
+
+</a>
+
+<a class="card" href="#">
+
+<h3>Trigonometría</h3>
+
+</a>
+
+<a class="card" href="#">
+
+<h3>Límites</h3>
+
+</a>
+
+<a class="card" href="#">
+
+<h3>Derivadas</h3>
+
+</a>
+
+<a class="card" href="#">
+
+<h3>Integrales</h3>
+
+</a>
+
+</div>
+
+</section>
+
+<section id="contacto">
+
+<h2>¿Necesitás ayuda?</h2>
+
+<a class="btn whatsapp"
+
+href="https://wa.me/5491167036160?text=Hola,%20quiero%20consultar%20por%20Matemática."
+
+target="_blank">
+
+Consultar por WhatsApp
+
+</a>
+
+</section>
 
 <script src="js/script.js"></script>
 
