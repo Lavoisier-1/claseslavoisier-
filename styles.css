@@ -337,3 +337,93 @@ opacity:.8;
 font-size:.9rem;
 margin-top:20px;
 }
+/* ===== Contenido de las materias ===== */
+
+.contenido{
+    max-width:900px;
+    margin:120px auto 60px;
+    padding:40px;
+    background:#fff;
+    border-radius:20px;
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+}
+
+.contenido h1{
+    color:#123B73;
+    margin-bottom:20px;
+    font-size:2.5rem;
+}
+
+.contenido h2{
+    color:#0B5FA5;
+    margin-top:40px;
+    margin-bottom:15px;
+}
+
+.contenido h3{
+    margin-top:25px;
+    color:#123B73;
+}
+
+.contenido p{
+    margin:15px 0;
+    line-height:1.8;
+}
+
+.contenido ul,
+.contenido ol{
+    margin:20px 0 20px 25px;
+}
+
+.contenido li{
+    margin-bottom:10px;
+}
+
+.contenido pre{
+    background:#eef5fb;
+    border-left:5px solid #0B5FA5;
+    padding:18px;
+    border-radius:10px;
+    overflow-x:auto;
+    font-size:1rem;
+    margin:20px 0;
+}
+
+.contenido table{
+    width:100%;
+    border-collapse:collapse;
+    margin:25px 0;
+}
+
+.contenido th{
+    background:#123B73;
+    color:#fff;
+    padding:12px;
+}
+
+.contenido td{
+    border:1px solid #ddd;
+    padding:12px;
+}
+
+.contenido tr:nth-child(even){
+    background:#f7f9fc;
+}
+
+.contenido .btn{
+    margin-top:25px;
+    display:inline-flex;
+}
+
+@media (max-width:768px){
+
+    .contenido{
+        margin:100px 20px 40px;
+        padding:25px;
+    }
+
+    .contenido h1{
+        font-size:2rem;
+    }
+
+}
