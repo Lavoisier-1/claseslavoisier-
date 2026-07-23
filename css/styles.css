@@ -586,3 +586,28 @@ ul li{
 .contenido h2{
     color:#1565c0;
 }
+@media (max-width:768px){
+
+nav{
+    flex-direction:column;
+}
+
+nav ul{
+    flex-direction:column;
+    text-align:center;
+}
+
+.hero h1{
+    font-size:2rem;
+}
+
+.buscador input{
+    width:90%;
+}
+
+table{
+    display:block;
+    overflow-x:auto;
+}
+
+}
