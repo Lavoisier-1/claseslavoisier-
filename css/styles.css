@@ -611,3 +611,82 @@ table{
 }
 
 }
+.calculadora{
+
+max-width:420px;
+
+margin:50px auto;
+
+background:white;
+
+padding:25px;
+
+border-radius:15px;
+
+box-shadow:0 5px 20px rgba(0,0,0,.15);
+
+}
+
+.calculadora input{
+
+width:100%;
+
+padding:18px;
+
+font-size:28px;
+
+text-align:right;
+
+margin-bottom:20px;
+
+border:2px solid #1565c0;
+
+border-radius:10px;
+
+box-sizing:border-box;
+
+}
+
+.teclado{
+
+display:grid;
+
+grid-template-columns:repeat(4,1fr);
+
+gap:12px;
+
+}
+
+.teclado button{
+
+padding:18px;
+
+font-size:22px;
+
+border:none;
+
+border-radius:10px;
+
+background:#1565c0;
+
+color:white;
+
+cursor:pointer;
+
+transition:.2s;
+
+}
+
+.teclado button:hover{
+
+transform:scale(1.05);
+
+}
+
+.borrar{
+
+grid-column:span 4;
+
+background:#d32f2f !important;
+
+}
