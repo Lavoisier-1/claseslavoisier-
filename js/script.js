@@ -114,7 +114,13 @@ function borrarTodo(){
 document.getElementById("pantalla").value = "";
 
 }
+function borrarUno(){
 
+let pantalla = document.getElementById("pantalla");
+
+pantalla.value = pantalla.value.slice(0,-1);
+
+}
 function calcular(){
 
 let pantalla = document.getElementById("pantalla");
