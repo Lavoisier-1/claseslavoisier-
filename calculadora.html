@@ -77,7 +77,13 @@ placeholder="0"
 readonly>
 
 <div class="teclado">
+<button onclick="raiz()">√</button>
 
+<button onclick="cuadrado()">x²</button>
+
+<button onclick="agregar('3.141592653589793')">π</button>
+
+<button onclick="agregar('(')">(</button>
 <button onclick="agregar('7')">7</button>
 <button onclick="agregar('8')">8</button>
 <button onclick="agregar('9')">9</button>
@@ -94,9 +100,17 @@ readonly>
 <button onclick="agregar('-')">−</button>
 
 <button onclick="agregar('0')">0</button>
+
 <button onclick="agregar('.')">.</button>
-<button onclick="calcular()">=</button>
+
+<button onclick="agregar(')')">)</button>
+
 <button onclick="agregar('+')">+</button>
+<button onclick="calcular()" class="igual">
+
+=
+
+</button>  
 
 <button onclick="borrarUno()">
 
