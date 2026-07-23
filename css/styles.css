@@ -685,8 +685,12 @@ transform:scale(1.05);
 
 .borrar{
 
-grid-column:span 4;
-
 background:#d32f2f !important;
+
+}
+
+.teclado button:last-child{
+
+background:#d32f2f;
 
 }
