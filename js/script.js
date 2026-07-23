@@ -99,3 +99,36 @@ topBtn.addEventListener("click", function () {
         behavior: "smooth"
     });
 });
+// =============================
+// CALCULADORA
+// =============================
+
+function agregar(valor){
+
+document.getElementById("pantalla").value += valor;
+
+}
+
+function borrarTodo(){
+
+document.getElementById("pantalla").value = "";
+
+}
+
+function calcular(){
+
+let pantalla = document.getElementById("pantalla");
+
+try{
+
+pantalla.value = eval(pantalla.value);
+
+}
+
+catch{
+
+pantalla.value = "Error";
+
+}
+
+}
