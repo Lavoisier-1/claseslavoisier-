@@ -1,1 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
 
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Calculadora Científica | Clases Lavoisier</title>
+
+<link rel="stylesheet" href="css/styles.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+</head>
+
+<body>
+
+<nav>
+
+<div class="logo">
+
+<a href="index.html">
+
+<img src="images/logo.png" alt="Clases Lavoisier">
+
+</a>
+
+</div>
+
+<ul>
+
+<li><a href="index.html">Inicio</a></li>
+
+<li><a href="index.html#temas">Temas</a></li>
+
+<li><a href="#contacto">Contacto</a></li>
+
+</ul>
+
+</nav>
+
+<header class="hero">
+
+<div class="overlay">
+
+<h1>Calculadora Científica</h1>
+
+<p>
+
+Realizá cálculos rápidos directamente desde el navegador.
+
+</p>
+
+</div>
+
+</header>
+
+<section class="contenido">
+
+<h1><i class="fas fa-calculator"></i> Calculadora Científica</h1>
+
+<p style="text-align:center;">
+
+Sumá, restá, multiplicá y dividí de forma rápida.
+
+</p>
+
+<div class="calculadora">
+
+<input
+type="text"
+id="pantalla"
+placeholder="0"
+readonly>
+
+<div class="teclado">
+
+<button onclick="agregar('7')">7</button>
+<button onclick="agregar('8')">8</button>
+<button onclick="agregar('9')">9</button>
+<button onclick="agregar('/')">÷</button>
+
+<button onclick="agregar('4')">4</button>
+<button onclick="agregar('5')">5</button>
+<button onclick="agregar('6')">6</button>
+<button onclick="agregar('*')">×</button>
+
+<button onclick="agregar('1')">1</button>
+<button onclick="agregar('2')">2</button>
+<button onclick="agregar('3')">3</button>
+<button onclick="agregar('-')">−</button>
+
+<button onclick="agregar('0')">0</button>
+<button onclick="agregar('.')">.</button>
+<button onclick="calcular()">=</button>
+<button onclick="agregar('+')">+</button>
+
+<button class="borrar" onclick="borrarTodo()">
+
+C
+
+</button>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="contacto">
+
+<h2>¿Necesitás ayuda?</h2>
+
+<p>
+
+¿Necesitás clases particulares de Matemática, Física o Química?
+
+</p>
+
+<a class="btn whatsapp"
+
+href="https://wa.me/5491167036160?text=Hola,%20quiero%20consultar%20por%20clases."
+
+target="_blank">
+
+Consultar por WhatsApp
+
+</a>
+
+</section>
+
+<script src="js/script.js"></script>
+
+</body>
+
+  </html>
