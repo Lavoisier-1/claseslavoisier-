@@ -122,7 +122,43 @@ pantalla.value = pantalla.value.slice(0,-1);
 
 }
 function calcular(){
+function raiz(){
 
+let pantalla = document.getElementById("pantalla");
+
+try{
+
+pantalla.value = Math.sqrt(eval(pantalla.value));
+
+}
+
+catch{
+
+pantalla.value="Error";
+
+}
+
+}
+
+function cuadrado(){
+
+let pantalla = document.getElementById("pantalla");
+
+try{
+
+let n = eval(pantalla.value);
+
+pantalla.value = n*n;
+
+}
+
+catch{
+
+pantalla.value="Error";
+
+}
+
+}
 let pantalla = document.getElementById("pantalla");
 
 try{
