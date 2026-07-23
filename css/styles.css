@@ -694,3 +694,14 @@ background:#d32f2f !important;
 background:#d32f2f;
 
 }
+.igual{
+
+grid-column:span 4;
+
+background:#2e7d32 !important;
+
+font-size:26px;
+
+font-weight:bold;
+
+}
