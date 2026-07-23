@@ -503,3 +503,86 @@ z-index:999;
 #topBtn:hover{
 background:#1E88E5;
 }
+/* ---------- Cajas de contenido ---------- */
+
+.caja{
+    background:#fff;
+    padding:25px;
+    margin:30px 0;
+    border-radius:12px;
+    box-shadow:0 5px 18px rgba(0,0,0,.08);
+}
+
+.caja h2{
+    margin-top:0;
+}
+
+.definicion{
+    border-left:8px solid #2196F3;
+}
+
+.importante{
+    border-left:8px solid #ff9800;
+}
+
+.ejemplo{
+    border-left:8px solid #4CAF50;
+}
+
+.consejo{
+    border-left:8px solid #8e44ad;
+}
+
+.error{
+    border-left:8px solid #e53935;
+}
+
+pre{
+    background:#f5f5f5;
+    padding:20px;
+    border-radius:8px;
+    overflow-x:auto;
+    font-size:18px;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    margin:30px 0;
+}
+
+table th{
+    background:#1565c0;
+    color:white;
+    padding:14px;
+}
+
+table td{
+    border:1px solid #ddd;
+    padding:12px;
+}
+
+table tr:nth-child(even){
+    background:#fafafa;
+}
+
+ol li,
+ul li{
+    margin-bottom:10px;
+}
+
+.contenido{
+    max-width:1100px;
+    margin:auto;
+    padding:60px 20px;
+    line-height:1.8;
+}
+
+.contenido h1{
+    text-align:center;
+    margin-bottom:40px;
+}
+
+.contenido h2{
+    color:#1565c0;
+}
