@@ -195,3 +195,82 @@ pantalla.value="Error";
 }
 
 }
+function seno(){
+
+let pantalla = document.getElementById("pantalla");
+
+try{
+
+let valor = eval(pantalla.value);
+
+pantalla.value = Math.sin(valor*Math.PI/180);
+
+}
+
+catch{
+
+pantalla.value="Error";
+
+}
+
+}
+
+function coseno(){
+
+let pantalla = document.getElementById("pantalla");
+
+try{
+
+let valor = eval(pantalla.value);
+
+pantalla.value = Math.cos(valor*Math.PI/180);
+
+}
+
+catch{
+
+pantalla.value="Error";
+
+}
+
+}
+
+function tangente(){
+
+let pantalla = document.getElementById("pantalla");
+
+try{
+
+let valor = eval(pantalla.value);
+
+pantalla.value = Math.tan(valor*Math.PI/180);
+
+}
+
+catch{
+
+pantalla.value="Error";
+
+}
+
+}
+
+function logaritmo(){
+
+let pantalla = document.getElementById("pantalla");
+
+try{
+
+let valor = eval(pantalla.value);
+
+pantalla.value = Math.log10(valor);
+
+}
+
+catch{
+
+pantalla.value="Error";
+
+}
+
+}
