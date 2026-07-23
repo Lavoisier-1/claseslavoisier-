@@ -103,174 +103,101 @@ topBtn.addEventListener("click", function () {
 // CALCULADORA
 // =============================
 
+// =============================
+// CALCULADORA
+// =============================
+
 function agregar(valor){
-
-document.getElementById("pantalla").value += valor;
-
+    document.getElementById("pantalla").value += valor;
 }
 
 function borrarTodo(){
-
-document.getElementById("pantalla").value = "";
-
+    document.getElementById("pantalla").value = "";
 }
+
 function borrarUno(){
-
-let pantalla = document.getElementById("pantalla");
-
-pantalla.value = pantalla.value.slice(0,-1);
-
+    let pantalla = document.getElementById("pantalla");
+    pantalla.value = pantalla.value.slice(0,-1);
 }
+
 function calcular(){
+    let pantalla = document.getElementById("pantalla");
 
-  function raiz(){
-
-let pantalla = document.getElementById("pantalla");
-
-try{
-
-pantalla.value = Math.sqrt(eval(pantalla.value));
-
+    try{
+        pantalla.value = eval(pantalla.value);
+    }
+    catch{
+        pantalla.value = "Error";
+    }
 }
 
-catch{
-
-pantalla.value="Error";
-
-}
-
-}
-
-function cuadrado(){
-
-let pantalla = document.getElementById("pantalla");
-
-try{
-
-pantalla.value = eval(pantalla.value);
-
-}
-
-catch{
-
-pantalla.value = "Error";
-
-}
-
-}
 function raiz(){
+    let pantalla = document.getElementById("pantalla");
 
-let pantalla = document.getElementById("pantalla");
-
-try{
-
-pantalla.value = Math.sqrt(eval(pantalla.value));
-
-}
-
-catch{
-
-pantalla.value="Error";
-
-}
-
+    try{
+        pantalla.value = Math.sqrt(eval(pantalla.value));
+    }
+    catch{
+        pantalla.value = "Error";
+    }
 }
 
 function cuadrado(){
+    let pantalla = document.getElementById("pantalla");
 
-let pantalla = document.getElementById("pantalla");
-
-try{
-
-let n = eval(pantalla.value);
-
-pantalla.value = n*n;
-
+    try{
+        let n = eval(pantalla.value);
+        pantalla.value = n * n;
+    }
+    catch{
+        pantalla.value = "Error";
+    }
 }
 
-catch{
-
-pantalla.value="Error";
-
-}
-
-}
 function seno(){
+    let pantalla = document.getElementById("pantalla");
 
-let pantalla = document.getElementById("pantalla");
-
-try{
-
-let valor = eval(pantalla.value);
-
-pantalla.value = Math.sin(valor*Math.PI/180);
-
-}
-
-catch{
-
-pantalla.value="Error";
-
-}
-
+    try{
+        let valor = eval(pantalla.value);
+        pantalla.value = Math.sin(valor * Math.PI / 180);
+    }
+    catch{
+        pantalla.value = "Error";
+    }
 }
 
 function coseno(){
+    let pantalla = document.getElementById("pantalla");
 
-let pantalla = document.getElementById("pantalla");
-
-try{
-
-let valor = eval(pantalla.value);
-
-pantalla.value = Math.cos(valor*Math.PI/180);
-
-}
-
-catch{
-
-pantalla.value="Error";
-
-}
-
+    try{
+        let valor = eval(pantalla.value);
+        pantalla.value = Math.cos(valor * Math.PI / 180);
+    }
+    catch{
+        pantalla.value = "Error";
+    }
 }
 
 function tangente(){
+    let pantalla = document.getElementById("pantalla");
 
-let pantalla = document.getElementById("pantalla");
-
-try{
-
-let valor = eval(pantalla.value);
-
-pantalla.value = Math.tan(valor*Math.PI/180);
-
-}
-
-catch{
-
-pantalla.value="Error";
-
-}
-
+    try{
+        let valor = eval(pantalla.value);
+        pantalla.value = Math.tan(valor * Math.PI / 180);
+    }
+    catch{
+        pantalla.value = "Error";
+    }
 }
 
 function logaritmo(){
+    let pantalla = document.getElementById("pantalla");
 
-let pantalla = document.getElementById("pantalla");
-
-try{
-
-let valor = eval(pantalla.value);
-
-pantalla.value = Math.log10(valor);
-
-}
-
-catch{
-
-pantalla.value="Error";
-
-}
-
+    try{
+        let valor = eval(pantalla.value);
+        pantalla.value = Math.log10(valor);
+    }
+    catch{
+        pantalla.value = "Error";
+    }
 }
