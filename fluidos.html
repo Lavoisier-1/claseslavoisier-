@@ -1,1 +1,748 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Fluidos | Clases Lavoisier</title>
+
+<link rel="stylesheet" href="css/styles.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+</head>
+
+<body>
+
+<nav>
+
+<div class="logo">
+
+<a href="index.html">
+
+<img src="images/logo.png" alt="Clases Lavoisier">
+
+</a>
+
+</div>
+
+<ul>
+
+<li><a href="index.html">Inicio</a></li>
+
+<li><a href="fisica.html">Física</a></li>
+
+<li><a href="#contacto">Contacto</a></li>
+
+</ul>
+
+</nav>
+
+<header class="hero">
+
+<div class="overlay">
+
+<h1>Fluidos</h1>
+
+<p>
+
+Hidrostática e Hidrodinámica.
+
+</p>
+
+</div>
+
+</header>
+
+<section class="contenido">
+
+<h2>¿Qué estudia la Mecánica de Fluidos?</h2>
+
+<p>
+
+La Mecánica de Fluidos estudia el comportamiento de líquidos y gases tanto en reposo como en movimiento. Sus aplicaciones abarcan desde cañerías y presas hasta aviones, barcos y sistemas de circulación sanguínea.
+
+</p>
+
+</section>
+  <section class="contenido">
+
+<h2>Densidad</h2>
+
+<p>
+
+La densidad relaciona la masa de un cuerpo con el volumen que ocupa.
+
+</p>
+
+<div class="caja importante">
+
+<pre>
+
+ρ = m / V
+
+</pre>
+
+</div>
+
+<table>
+
+<tr>
+
+<th>Magnitud</th>
+
+<th>Símbolo</th>
+
+<th>Unidad SI</th>
+
+</tr>
+
+<tr>
+
+<td>Densidad</td>
+
+<td>ρ</td>
+
+<td>kg/m³</td>
+
+</tr>
+
+<tr>
+
+<td>Masa</td>
+
+<td>m</td>
+
+<td>kg</td>
+
+</tr>
+
+<tr>
+
+<td>Volumen</td>
+
+<td>V</td>
+
+<td>m³</td>
+
+</tr>
+
+</table>
+
+<div class="caja ejemplo">
+
+<h3>Ejemplo</h3>
+
+<p>
+
+Un cuerpo posee una masa de 8 kg y un volumen de 2 m³.
+
+</p>
+
+<pre>
+
+ρ = 8 / 2
+
+ρ = 4 kg/m³
+
+</pre>
+
+</div>
+
+  </section>
+  <section class="contenido">
+
+<h2>Presión</h2>
+
+<p>
+
+La presión mide la fuerza aplicada sobre una determinada superficie.
+
+</p>
+
+<div class="caja importante">
+
+<pre>
+
+P = F / A
+
+</pre>
+
+</div>
+
+<table>
+
+<tr>
+
+<th>Magnitud</th>
+
+<th>Unidad</th>
+
+</tr>
+
+<tr>
+
+<td>Presión</td>
+
+<td>Pascal (Pa)</td>
+
+</tr>
+
+<tr>
+
+<td>Fuerza</td>
+
+<td>Newton (N)</td>
+
+</tr>
+
+<tr>
+
+<td>Área</td>
+
+<td>m²</td>
+
+</tr>
+
+</table>
+
+<div class="caja ejemplo">
+
+<h3>Ejemplo</h3>
+
+<pre>
+
+P = 200 / 4
+
+P = 50 Pa
+
+</pre>
+
+</div>
+
+  </section>
+  <section class="contenido">
+
+<h2>Presión hidrostática</h2>
+
+<p>
+
+Todo líquido ejerce presión debido a su peso. Cuanto mayor es la profundidad, mayor es la presión.
+
+</p>
+
+<div class="caja importante">
+
+<pre>
+
+P = ρ · g · h
+
+</pre>
+
+</div>
+
+<div class="caja ejemplo">
+
+<h3>Ejemplo</h3>
+
+<p>
+
+Agua (1000 kg/m³) a una profundidad de 5 m.
+
+</p>
+
+<pre>
+
+P = 1000 × 9,8 × 5
+
+P = 49000 Pa
+
+</pre>
+
+</div>
+
+  </section>
+  <section class="contenido">
+
+<h2>Principio de Pascal</h2>
+
+<p>
+
+El principio de Pascal establece que la presión aplicada sobre un fluido incomprensible y en equilibrio se transmite íntegramente en todas las direcciones.
+
+</p>
+
+<div class="caja importante">
+
+<pre>
+
+P₁ = P₂
+
+F₁ / A₁ = F₂ / A₂
+
+</pre>
+
+</div>
+
+<div class="caja ejemplo">
+
+<h3>Aplicaciones</h3>
+
+<ul>
+
+<li>Gatos hidráulicos.</li>
+
+<li>Frenos hidráulicos.</li>
+
+<li>Prensas hidráulicas.</li>
+
+<li>Elevadores de automóviles.</li>
+
+</ul>
+
+</div>
+
+</section>
+
+<section class="contenido">
+
+<h2>Principio de Arquímedes</h2>
+
+<p>
+
+Todo cuerpo sumergido total o parcialmente en un fluido experimenta un empuje vertical hacia arriba igual al peso del fluido desalojado.
+
+</p>
+
+<div class="caja importante">
+
+<pre>
+
+E = ρ · g · V
+
+</pre>
+
+</div>
+
+<table>
+
+<tr>
+
+<th>Símbolo</th>
+
+<th>Magnitud</th>
+
+</tr>
+
+<tr>
+
+<td>E</td>
+
+<td>Empuje</td>
+
+</tr>
+
+<tr>
+
+<td>ρ</td>
+
+<td>Densidad del fluido</td>
+
+</tr>
+
+<tr>
+
+<td>g</td>
+
+<td>Gravedad</td>
+
+</tr>
+
+<tr>
+
+<td>V</td>
+
+<td>Volumen desplazado</td>
+
+</tr>
+
+</table>
+
+<div class="caja ejemplo">
+
+<h3>Ejemplo</h3>
+
+<p>
+
+Un objeto desplaza 0,02 m³ de agua.
+
+</p>
+
+<pre>
+
+E = 1000 × 9,8 × 0,02
+
+E = 196 N
+
+</pre>
+
+</div>
+
+</section>
+
+<section class="contenido">
+
+<h2>Flotación</h2>
+
+<p>
+
+La flotación depende de la relación entre el peso del cuerpo y el empuje ejercido por el fluido.
+
+</p>
+
+<table>
+
+<tr>
+
+<th>Situación</th>
+
+<th>Resultado</th>
+
+</tr>
+
+<tr>
+
+<td>E = Peso</td>
+
+<td>El cuerpo flota en equilibrio.</td>
+
+</tr>
+
+<tr>
+
+<td>E > Peso</td>
+
+<td>El cuerpo asciende.</td>
+
+</tr>
+
+<tr>
+
+<td>E < Peso</td>
+
+<td>El cuerpo se hunde.</td>
+
+</tr>
+
+</table>
+
+</section>
+
+<section class="contenido">
+
+<h2>Ecuación de continuidad</h2>
+
+<p>
+
+Cuando un fluido es incompresible, el caudal permanece constante a lo largo del conducto.
+
+</p>
+
+<div class="caja importante">
+
+<pre>
+
+A₁ · v₁ = A₂ · v₂
+
+</pre>
+
+</div>
+
+<div class="caja ejemplo">
+
+<h3>Interpretación</h3>
+
+<p>
+
+Si el diámetro de una tubería disminuye, la velocidad del fluido aumenta.
+
+</p>
+
+</div>
+
+</section>
+
+<section class="contenido">
+
+<h2>Ecuación de Bernoulli</h2>
+
+<p>
+
+La ecuación de Bernoulli expresa la conservación de la energía en un fluido ideal.
+
+</p>
+
+<div class="caja importante">
+
+<pre>
+
+P + ½ρv² + ρgh = constante
+
+</pre>
+
+</div>
+
+<div class="caja ejemplo">
+
+<h3>Aplicaciones</h3>
+
+<ul>
+
+<li>Alas de los aviones.</li>
+
+<li>Atomizadores.</li>
+
+<li>Carburadores.</li>
+
+<li>Medidores Venturi.</li>
+
+</ul>
+
+</div>
+
+</section>
+
+<section class="contenido">
+
+<h2>Errores frecuentes</h2>
+
+<div class="caja error">
+
+<ul>
+
+<li>Confundir masa con densidad.</li>
+
+<li>Olvidar convertir el volumen a m³.</li>
+
+<li>Usar centímetros en lugar de metros.</li>
+
+<li>Pensar que el empuje depende del peso del objeto y no del fluido desplazado.</li>
+
+<li>Confundir presión con fuerza.</li>
+
+</ul>
+
+</div>
+
+</section>
+
+<section class="contenido">
+
+<h2>Ejercicios propuestos</h2>
+
+<ol>
+
+<li>Calcular la densidad de un cuerpo de 12 kg y volumen de 3 m³.</li>
+
+<li>Determinar la presión ejercida por una fuerza de 150 N sobre una superficie de 0,5 m².</li>
+
+<li>Calcular la presión hidrostática a 8 metros de profundidad en agua.</li>
+
+<li>Determinar el empuje sobre un objeto que desplaza 0,05 m³ de agua.</li>
+
+<li>Explicar por qué flotan los barcos de acero.</li>
+
+</ol>
+
+</section>
+ <section class="contenido">
+
+<h2>📚 Formulario de Fluidos</h2>
+
+<p>
+
+Estas son las fórmulas más importantes de Hidrostática e Hidrodinámica.
+
+</p>
+
+<table>
+
+<tr>
+
+<th>Tema</th>
+
+<th>Fórmula</th>
+
+</tr>
+
+<tr>
+
+<td>Densidad</td>
+
+<td>ρ = m / V</td>
+
+</tr>
+
+<tr>
+
+<td>Presión</td>
+
+<td>P = F / A</td>
+
+</tr>
+
+<tr>
+
+<td>Presión hidrostática</td>
+
+<td>P = ρ · g · h</td>
+
+</tr>
+
+<tr>
+
+<td>Principio de Pascal</td>
+
+<td>F₁/A₁ = F₂/A₂</td>
+
+</tr>
+
+<tr>
+
+<td>Empuje</td>
+
+<td>E = ρ · g · V</td>
+
+</tr>
+
+<tr>
+
+<td>Continuidad</td>
+
+<td>A₁ · v₁ = A₂ · v₂</td>
+
+</tr>
+
+<tr>
+
+<td>Bernoulli</td>
+
+<td>P + ½ρv² + ρgh = constante</td>
+
+</tr>
+
+</table>
+
+</section>
+
+<section class="contenido">
+
+<h2>🎯 Resumen</h2>
+
+<p>
+
+La Mecánica de Fluidos estudia el comportamiento de líquidos y gases tanto en reposo como en movimiento. Comprender conceptos como presión, empuje, densidad y conservación de la energía permite explicar fenómenos cotidianos y numerosas aplicaciones de la ingeniería, la medicina y la industria.
+
+</p>
+
+</section>
+
+<section class="contenido">
+
+<h2>Aplicaciones en la vida cotidiana</h2>
+
+<div class="cards">
+
+<div class="card">
+
+<h3>🚢 Barcos</h3>
+
+<p>
+
+Flotan gracias al principio de Arquímedes.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>✈️ Aviones</h3>
+
+<p>
+
+El perfil de las alas aprovecha el principio de Bernoulli para generar sustentación.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>🚰 Redes de agua</h3>
+
+<p>
+
+Funcionan gracias a la presión y a la continuidad del flujo.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>🩺 Medicina</h3>
+
+<p>
+
+La circulación sanguínea se estudia mediante principios de la Mecánica de Fluidos.
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="contenido" style="text-align:center;">
+
+<a class="btn" href="fisica.html">
+
+← Volver a Física
+
+</a>
+
+</section>
+
+<section id="contacto">
+
+<h2>¿Necesitás ayuda con Fluidos?</h2>
+
+<p>
+
+Si estás preparando un examen o querés reforzar estos contenidos, podés consultar por clases particulares.
+
+</p>
+
+<a class="btn whatsapp"
+
+href="https://wa.me/5491167036160?text=Hola,%20quiero%20consultar%20por%20clases%20de%20Física."
+
+target="_blank">
+
+Consultar por WhatsApp
+
+</a>
+
+</section>
+
+<script src="js/script.js"></script>
+
+</body>
+
+</html>
 
