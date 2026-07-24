@@ -16,14 +16,27 @@ function calcularEstadistica() {
 
     }
 
-    document.getElementById("resultado").innerHTML =
+    let suma = 0;
 
-    `
-    <h3>Datos ingresados</h3>
+for (let numero of datos) {
 
-    <p>${datos.join(", ")}</p>
-
-    <p>Cantidad de datos: <strong>${datos.length}</strong></p>
-    `;
+    suma += numero;
 
 }
+
+let media = (suma / datos.length).toFixed(2);
+
+document.getElementById("resultado").innerHTML =
+
+`
+<h3>Resultados</h3>
+
+<p><strong>Datos:</strong> ${datos.join(", ")}</p>
+
+<p><strong>Cantidad:</strong> ${datos.length}</p>
+
+<p><strong>Suma:</strong> ${suma}</p>
+
+<p><strong>Media:</strong> ${media}</p>
+
+`;
