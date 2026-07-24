@@ -1,0 +1,1407 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Análisis Matemático | Clases Lavoisier</title>
+
+<link rel="stylesheet" href="css/styles.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+</head>
+
+<body>
+
+<nav>
+
+<div class="logo">
+
+<a href="index.html">
+
+<img src="images/logo.png" alt="Clases Lavoisier">
+
+</a>
+
+</div>
+
+<ul>
+
+<li><a href="index.html">Inicio</a></li>
+
+<li><a href="index.html#matematica">Matemática</a></li>
+
+<li><a href="#contacto">Contacto</a></li>
+
+</ul>
+
+</nav>
+
+<header class="hero">
+
+<div class="overlay">
+
+<h1>Análisis Matemático</h1>
+
+<p>
+
+Límites, derivadas, integrales y aplicaciones.
+
+</p>
+
+</div>
+
+</header>
+
+<section class="contenido">
+
+<h2>¿Qué es el Análisis Matemático?</h2>
+
+<p>
+
+El Análisis Matemático estudia el comportamiento de las funciones, sus variaciones y las herramientas necesarias para modelar fenómenos físicos, económicos e ingenieriles. Constituye una de las bases de la matemática universitaria.
+
+</p>
+
+</section>
+<section class="contenido">
+
+<h2>Funciones</h2>
+
+<p>
+
+Una función es una relación que asigna a cada valor de la variable independiente un único valor de la variable dependiente.
+
+</p>
+
+<div class="caja importante">
+
+<pre>
+
+y = f(x)
+
+</pre>
+
+</div>
+
+<table>
+
+<tr>
+
+<th>Concepto</th>
+
+<th>Descripción</th>
+
+</tr>
+
+<tr>
+
+<td>Dominio</td>
+
+<td>Valores permitidos para x.</td>
+
+</tr>
+
+<tr>
+
+<td>Imagen</td>
+
+<td>Valores que puede tomar y.</td>
+
+</tr>
+
+<tr>
+
+<td>Variable independiente</td>
+
+<td>x</td>
+
+</tr>
+
+<tr>
+
+<td>Variable dependiente</td>
+
+<td>f(x)</td>
+
+</tr>
+
+</table>
+
+<div class="caja ejemplo">
+
+<h3>Ejemplo</h3>
+
+<pre>
+
+f(x)=2x+3
+
+f(5)=13
+
+</pre>
+
+</div>
+
+</section>
+<section class="contenido">
+
+<h2>Límites</h2>
+
+<p>
+
+El límite describe el valor al que tiende una función cuando la variable se aproxima a un determinado punto.
+
+</p>
+
+<div class="caja importante">
+
+<pre>
+
+lim f(x)
+
+x→a
+
+</pre>
+
+</div>
+
+<div class="caja ejemplo">
+
+<h3>Ejemplo</h3>
+
+<pre>
+
+lim (2x+1)
+
+x→3
+
+=7
+
+</pre>
+
+</div>
+
+<div class="caja consejo">
+
+<p>
+
+Un límite puede existir aunque la función no esté definida exactamente en ese punto.
+
+</p>
+
+</div>
+
+</section>
+<section class="contenido">
+
+<h2>Continuidad</h2>
+
+<p>
+
+Una función es continua en un punto cuando puede dibujarse sin levantar el lápiz y cumple determinadas condiciones matemáticas.
+
+</p>
+
+<div class="caja importante">
+
+<pre>
+
+lim f(x)=f(a)
+
+x→a
+
+</pre>
+
+</div>
+
+<p>
+
+Para que exista continuidad deben cumplirse simultáneamente:
+
+</p>
+
+<ul>
+
+<li>Existe f(a).</li>
+
+<li>Existe el límite.</li>
+
+<li>Ambos valores son iguales.</li>
+
+</ul>
+
+</section>
+<section class="contenido">
+
+<h2>Derivadas</h2>
+
+<p>
+
+La derivada mide la rapidez con la que cambia una función respecto de su variable independiente. Geométricamente representa la pendiente de la recta tangente a la curva en un punto.
+
+</p>
+
+<div class="caja importante">
+
+<pre>
+
+f'(x)=lim (f(x+h)-f(x))/h
+
+      h→0
+
+</pre>
+
+</div>
+
+<p>
+
+La notación también puede escribirse como:
+
+</p>
+
+<ul>
+
+<li>f'(x)</li>
+
+<li>y'</li>
+
+<li>dy/dx</li>
+
+</ul>
+
+</section>
+
+<section class="contenido">
+
+<h2>Interpretación geométrica</h2>
+
+<p>
+
+La derivada indica la inclinación de la recta tangente a la función en un punto determinado.
+
+</p>
+
+<table>
+
+<tr>
+
+<th>Valor de la derivada</th>
+
+<th>Interpretación</th>
+
+</tr>
+
+<tr>
+
+<td>f'(x) > 0</td>
+
+<td>La función crece.</td>
+
+</tr>
+
+<tr>
+
+<td>f'(x) < 0</td>
+
+<td>La función decrece.</td>
+
+</tr>
+
+<tr>
+
+<td>f'(x) = 0</td>
+
+<td>Puede existir un máximo, un mínimo o un punto de inflexión.</td>
+
+</tr>
+
+</table>
+
+</section>
+
+<section class="contenido">
+
+<h2>Reglas básicas de derivación</h2>
+
+<table>
+
+<tr>
+
+<th>Función</th>
+
+<th>Derivada</th>
+
+</tr>
+
+<tr>
+
+<td>c</td>
+
+<td>0</td>
+
+</tr>
+
+<tr>
+
+<td>x</td>
+
+<td>1</td>
+
+</tr>
+
+<tr>
+
+<td>x²</td>
+
+<td>2x</td>
+
+</tr>
+
+<tr>
+
+<td>x³</td>
+
+<td>3x²</td>
+
+</tr>
+
+<tr>
+
+<td>xⁿ</td>
+
+<td>n·xⁿ⁻¹</td>
+
+</tr>
+
+<tr>
+
+<td>√x</td>
+
+<td>1/(2√x)</td>
+
+</tr>
+
+<tr>
+
+<td>1/x</td>
+
+<td>-1/x²</td>
+
+</tr>
+
+</table>
+
+</section>
+
+<section class="contenido">
+
+<h2>Derivadas de funciones frecuentes</h2>
+
+<table>
+
+<tr>
+
+<th>Función</th>
+
+<th>Derivada</th>
+
+</tr>
+
+<tr>
+
+<td>sen(x)</td>
+
+<td>cos(x)</td>
+
+</tr>
+
+<tr>
+
+<td>cos(x)</td>
+
+<td>-sen(x)</td>
+
+</tr>
+
+<tr>
+
+<td>tan(x)</td>
+
+<td>sec²(x)</td>
+
+</tr>
+
+<tr>
+
+<td>eˣ</td>
+
+<td>eˣ</td>
+
+</tr>
+
+<tr>
+
+<td>ln(x)</td>
+
+<td>1/x</td>
+
+</tr>
+
+</table>
+
+</section>
+
+<section class="contenido">
+
+<h2>Ejemplo resuelto</h2>
+
+<div class="caja ejemplo">
+
+<p>
+
+Calcular la derivada de:
+
+</p>
+
+<pre>
+
+f(x)=3x²+5x−7
+
+</pre>
+
+<p>
+
+Aplicando las reglas:
+
+</p>
+
+<pre>
+
+f'(x)=6x+5
+
+</pre>
+
+</div>
+
+</section>
+<section class="contenido">
+
+<h2>Aplicaciones de la derivada</h2>
+
+<p>
+
+Las derivadas permiten estudiar cómo cambia una función y resolver numerosos problemas de Matemática, Física, Economía e Ingeniería.
+
+</p>
+
+<div class="cards">
+
+<div class="card">
+
+<h3>📈 Crecimiento</h3>
+
+<p>
+
+Determinar dónde una función aumenta.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>📉 Decrecimiento</h3>
+
+<p>
+
+Determinar dónde una función disminuye.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>🏔 Máximos y mínimos</h3>
+
+<p>
+
+Encontrar valores extremos de una función.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>📐 Recta tangente</h3>
+
+<p>
+
+Calcular la pendiente en un punto.
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="contenido">
+
+<h2>Crecimiento y decrecimiento</h2>
+
+<p>
+
+El signo de la derivada indica el comportamiento de la función.
+
+</p>
+
+<table>
+
+<tr>
+
+<th>Condición</th>
+
+<th>Conclusión</th>
+
+</tr>
+
+<tr>
+
+<td>f'(x) > 0</td>
+
+<td>La función crece.</td>
+
+</tr>
+
+<tr>
+
+<td>f'(x) < 0</td>
+
+<td>La función decrece.</td>
+
+</tr>
+
+<tr>
+
+<td>f'(x) = 0</td>
+
+<td>Punto crítico.</td>
+
+</tr>
+
+</table>
+
+</section>
+
+<section class="contenido">
+
+<h2>Máximos y mínimos</h2>
+
+<p>
+
+Los máximos y mínimos locales suelen encontrarse en los puntos donde la derivada es cero o no existe.
+
+</p>
+
+<div class="caja importante">
+
+<pre>
+
+f'(x)=0
+
+</pre>
+
+</div>
+
+<p>
+
+Luego debe analizarse el signo de la derivada o utilizar la segunda derivada para determinar si se trata de un máximo o un mínimo.
+
+</p>
+
+</section>
+
+<section class="contenido">
+
+<h2>Segunda derivada</h2>
+
+<p>
+
+La segunda derivada permite estudiar la concavidad de una función.
+
+</p>
+
+<table>
+
+<tr>
+
+<th>Condición</th>
+
+<th>Interpretación</th>
+
+</tr>
+
+<tr>
+
+<td>f''(x) > 0</td>
+
+<td>Concavidad hacia arriba.</td>
+
+</tr>
+
+<tr>
+
+<td>f''(x) < 0</td>
+
+<td>Concavidad hacia abajo.</td>
+
+</tr>
+
+<tr>
+
+<td>f''(x)=0</td>
+
+<td>Posible punto de inflexión.</td>
+
+</tr>
+
+</table>
+
+</section>
+
+<section class="contenido">
+
+<h2>Recta tangente</h2>
+
+<p>
+
+La ecuación de la recta tangente a una función en un punto se obtiene mediante:
+
+</p>
+
+<div class="caja importante">
+
+<pre>
+
+y − y₀ = f'(x₀)(x − x₀)
+
+</pre>
+
+</div>
+
+<div class="caja ejemplo">
+
+<h3>Ejemplo</h3>
+
+<p>
+
+Para la función:
+
+</p>
+
+<pre>
+
+f(x)=x²
+
+</pre>
+
+<p>
+
+en el punto x=2:
+
+</p>
+
+<pre>
+
+f'(x)=2x
+
+f'(2)=4
+
+P=(2,4)
+
+y−4=4(x−2)
+
+</pre>
+
+</div>
+
+</section>
+
+<section class="contenido">
+
+<h2>Aplicaciones en Física</h2>
+
+<table>
+
+<tr>
+
+<th>Magnitud</th>
+
+<th>Derivada</th>
+
+</tr>
+
+<tr>
+
+<td>Posición</td>
+
+<td>Velocidad</td>
+
+</tr>
+
+<tr>
+
+<td>Velocidad</td>
+
+<td>Aceleración</td>
+
+</tr>
+
+<tr>
+
+<td>Distancia</td>
+
+<td>Rapidez instantánea</td>
+
+</tr>
+
+</table>
+
+</section>
+
+<section class="contenido">
+
+<h2>Errores frecuentes</h2>
+
+<div class="caja error">
+
+<ul>
+
+<li>Olvidar aplicar la regla de la potencia.</li>
+
+<li>Derivar una constante como si dependiera de x.</li>
+
+<li>Confundir la función con su derivada.</li>
+
+<li>No analizar el signo de la derivada al estudiar crecimiento.</li>
+
+<li>Resolver f'(x)=0 y asumir automáticamente que es un máximo o un mínimo.</li>
+
+</ul>
+
+</div>
+
+  </section>
+  <section class="contenido">
+
+<h2>Integrales</h2>
+
+<p>
+
+La integración es el proceso inverso de la derivación. Permite calcular áreas, volúmenes, desplazamientos y muchas otras magnitudes.
+
+</p>
+
+<div class="caja importante">
+
+<pre>
+
+∫ f(x) dx
+
+</pre>
+
+</div>
+
+<p>
+
+El resultado de una integral indefinida es una familia de funciones que difieren en una constante.
+
+</p>
+
+</section>
+
+<section class="contenido">
+
+<h2>Integral indefinida</h2>
+
+<p>
+
+Una integral indefinida representa todas las primitivas de una función.
+
+</p>
+
+<div class="caja importante">
+
+<pre>
+
+∫f(x)dx = F(x)+C
+
+</pre>
+
+</div>
+
+<table>
+
+<tr>
+
+<th>Integral</th>
+
+<th>Resultado</th>
+
+</tr>
+
+<tr>
+
+<td>∫x dx</td>
+
+<td>x²/2 + C</td>
+
+</tr>
+
+<tr>
+
+<td>∫x² dx</td>
+
+<td>x³/3 + C</td>
+
+</tr>
+
+<tr>
+
+<td>∫xⁿ dx</td>
+
+<td>xⁿ⁺¹/(n+1)+C</td>
+
+</tr>
+
+<tr>
+
+<td>∫1/x dx</td>
+
+<td>ln|x|+C</td>
+
+</tr>
+
+<tr>
+
+<td>∫eˣ dx</td>
+
+<td>eˣ+C</td>
+
+</tr>
+
+<tr>
+
+<td>∫sen(x) dx</td>
+
+<td>-cos(x)+C</td>
+
+</tr>
+
+<tr>
+
+<td>∫cos(x) dx</td>
+
+<td>sen(x)+C</td>
+
+</tr>
+
+</table>
+
+</section>
+
+<section class="contenido">
+
+<h2>Integral definida</h2>
+
+<p>
+
+La integral definida permite calcular el área comprendida entre una función y el eje x en un intervalo determinado.
+
+</p>
+
+<div class="caja importante">
+
+<pre>
+
+b
+⌠
+⌡ f(x)dx
+a
+
+= F(b)-F(a)
+
+</pre>
+
+</div>
+
+</section>
+
+<section class="contenido">
+
+<h2>Teorema Fundamental del Cálculo</h2>
+
+<p>
+
+Este teorema conecta las derivadas con las integrales y establece que derivar e integrar son operaciones inversas.
+
+</p>
+
+<div class="caja consejo">
+
+<p>
+
+Para resolver una integral definida:
+
+</p>
+
+<ol>
+
+<li>Encontrar una primitiva.</li>
+
+<li>Evaluarla en el extremo superior.</li>
+
+<li>Evaluarla en el extremo inferior.</li>
+
+<li>Restar ambos resultados.</li>
+
+</ol>
+
+</div>
+
+</section>
+
+<section class="contenido">
+
+<h2>Ejemplo resuelto</h2>
+
+<div class="caja ejemplo">
+
+<p>
+
+Calcular:
+
+</p>
+
+<pre>
+
+∫₀² x² dx
+
+</pre>
+
+<p>
+
+Primitiva:
+
+</p>
+
+<pre>
+
+x³/3
+
+</pre>
+
+<p>
+
+Evaluando:
+
+</p>
+
+<pre>
+
+(2³/3)-(0³/3)
+
+8/3
+
+</pre>
+
+</div>
+
+</section>
+
+<section class="contenido">
+
+<h2>Aplicaciones de las integrales</h2>
+
+<div class="cards">
+
+<div class="card">
+
+<h3>📐 Áreas</h3>
+
+<p>
+
+Área bajo una curva.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>🧱 Volúmenes</h3>
+
+<p>
+
+Cálculo de sólidos de revolución.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>🚗 Física</h3>
+
+<p>
+
+Obtener desplazamiento a partir de la velocidad.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>💰 Economía</h3>
+
+<p>
+
+Modelos de costos e ingresos acumulados.
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="contenido">
+
+<h2>Errores frecuentes en integrales</h2>
+
+<div class="caja error">
+
+<ul>
+
+<li>Olvidar sumar la constante de integración.</li>
+
+<li>No aumentar el exponente antes de dividir.</li>
+
+<li>Aplicar incorrectamente los límites de integración.</li>
+
+<li>Confundir derivadas con primitivas.</li>
+
+<li>Olvidar que la regla de la potencia no se aplica a 1/x.</li>
+
+</ul>
+
+</div>
+
+</section>
+<section class="contenido">
+
+<h2>Sucesiones y series</h2>
+
+<p>
+
+Una sucesión es una lista ordenada de números. Una serie es la suma de los términos de una sucesión.
+
+</p>
+
+<table>
+
+<tr>
+
+<th>Concepto</th>
+
+<th>Definición</th>
+
+</tr>
+
+<tr>
+
+<td>Sucesión</td>
+
+<td>Conjunto ordenado de términos.</td>
+
+</tr>
+
+<tr>
+
+<td>Serie</td>
+
+<td>Suma de los términos de una sucesión.</td>
+
+</tr>
+
+<tr>
+
+<td>Progresión aritmética</td>
+
+<td>Cada término aumenta una cantidad constante.</td>
+
+</tr>
+
+<tr>
+
+<td>Progresión geométrica</td>
+
+<td>Cada término se obtiene multiplicando por una constante.</td>
+
+</tr>
+
+</table>
+
+<div class="caja ejemplo">
+
+<h3>Ejemplos</h3>
+
+<pre>
+
+2, 4, 6, 8...
+
+1, 2, 4, 8, 16...
+
+</pre>
+
+</div>
+
+</section>
+
+<section class="contenido">
+
+<h2>Formulario de Análisis Matemático</h2>
+
+<table>
+
+<tr>
+
+<th>Tema</th>
+
+<th>Fórmula</th>
+
+</tr>
+
+<tr>
+
+<td>Límite</td>
+
+<td>lim f(x)</td>
+
+</tr>
+
+<tr>
+
+<td>Continuidad</td>
+
+<td>lim f(x)=f(a)</td>
+
+</tr>
+
+<tr>
+
+<td>Derivada</td>
+
+<td>f'(x)</td>
+
+</tr>
+
+<tr>
+
+<td>Regla de la potencia</td>
+
+<td>(xⁿ)' = n·xⁿ⁻¹</td>
+
+</tr>
+
+<tr>
+
+<td>Integral indefinida</td>
+
+<td>∫f(x)dx = F(x)+C</td>
+
+</tr>
+
+<tr>
+
+<td>Integral definida</td>
+
+<td>∫ᵃᵇf(x)dx = F(b)-F(a)</td>
+
+</tr>
+
+<tr>
+
+<td>Recta tangente</td>
+
+<td>y-y₀=f'(x₀)(x-x₀)</td>
+
+</tr>
+
+</table>
+
+</section>
+
+<section class="contenido">
+
+<h2>Ejercicios integradores</h2>
+
+<ol>
+
+<li>Calcular el límite de una función lineal.</li>
+
+<li>Determinar si una función es continua.</li>
+
+<li>Derivar un polinomio de tercer grado.</li>
+
+<li>Encontrar los puntos críticos de una función.</li>
+
+<li>Calcular una recta tangente.</li>
+
+<li>Resolver una integral indefinida.</li>
+
+<li>Calcular el área bajo una curva mediante una integral definida.</li>
+
+<li>Resolver un problema de optimización utilizando derivadas.</li>
+
+</ol>
+
+</section>
+
+<section class="contenido">
+
+<h2>Aplicaciones del Análisis Matemático</h2>
+
+<div class="cards">
+
+<div class="card">
+
+<h3>⚙️ Ingeniería</h3>
+
+<p>
+
+Diseño y optimización de estructuras y máquinas.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>📈 Economía</h3>
+
+<p>
+
+Análisis de costos, ingresos y beneficios marginales.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>⚛️ Física</h3>
+
+<p>
+
+Movimiento, velocidad, aceleración y energía.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>💻 Informática</h3>
+
+<p>
+
+Modelado matemático, gráficos y algoritmos.
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="contenido">
+
+<h2>Conceptos clave</h2>
+
+<ul>
+
+<li>Los límites describen el comportamiento de una función.</li>
+
+<li>La continuidad evita "saltos" en la gráfica.</li>
+
+<li>La derivada mide la variación instantánea.</li>
+
+<li>La integral acumula cantidades y permite calcular áreas.</li>
+
+<li>Derivar e integrar son operaciones inversas.</li>
+
+</ul>
+
+</section>
+
+<section class="contenido">
+
+<h2>Resumen</h2>
+
+<p>
+
+El Análisis Matemático proporciona herramientas fundamentales para estudiar funciones y modelar fenómenos reales. Los conceptos de límite, continuidad, derivada e integral son la base de numerosas aplicaciones en Matemática, Física, Ingeniería, Economía y Ciencias de la Computación.
+
+</p>
+
+</section>
+
+<section class="contenido" style="text-align:center;">
+
+<a class="btn" href="matematica.html">
+
+← Volver a Matemática
+
+</a>
+
+</section>
+
+<section id="contacto">
+
+<h2>¿Necesitás ayuda con Análisis Matemático?</h2>
+
+<p>
+
+Prepará parciales, finales o exámenes de ingreso con clases particulares adaptadas a tu nivel.
+
+</p>
+
+<a class="btn whatsapp"
+
+href="https://wa.me/5491167036160?text=Hola,%20quiero%20consultar%20por%20clases%20de%20Análisis%20Matemático."
+
+target="_blank">
+
+Consultar por WhatsApp
+
+</a>
+
+</section>
+
+<script src="js/script.js"></script>
+
+</body>
+
+  </html>
