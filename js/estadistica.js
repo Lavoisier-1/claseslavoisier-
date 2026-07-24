@@ -1,5 +1,15 @@
 function calcularEstadistica() {
 
+    alert("Entró a la función");
+
+    let texto = document.getElementById("datos").value;
+
+    ...
+}
+
+
+function calcularEstadistica() {
+
     let texto = document.getElementById("datos").value;
 
     let datos = texto
