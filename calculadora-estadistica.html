@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Calculadora Estadística | Clases Lavoisier</title>
+
+<link rel="stylesheet" href="css/styles.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+</head>
+
+<body>
+
+<nav>
+
+<div class="logo">
+
+<a href="index.html">
+<img src="images/logo.png" alt="Clases Lavoisier">
+</a>
+
+</div>
+
+<ul>
+
+<li><a href="index.html">Inicio</a></li>
+
+<li><a href="estadistica.html">Estadística</a></li>
+
+<li><a href="#calculadora">Calculadora</a></li>
+
+</ul>
+
+</nav>
+
+<header class="hero">
+
+<div class="overlay">
+
+<h1>Calculadora Estadística</h1>
+
+<p>
+
+Ingresá los datos separados por comas.
+
+</p>
+
+</div>
+
+</header>
+
+<section class="contenido" id="calculadora">
+
+<h2>Calculadora</h2>
+
+<textarea
+id="datos"
+rows="6"
+placeholder="Ejemplo: 4,6,8,10,12"></textarea>
+
+<br><br>
+
+<button class="btn" onclick="calcularEstadistica()">
+
+Calcular
+
+</button>
+
+<div id="resultado" class="caja importante" style="margin-top:30px;">
+
+Los resultados aparecerán aquí.
+
+</div>
+
+</section>
+
+<script src="js/estadistica.js"></script>
+
+</body>
+
+</html>
