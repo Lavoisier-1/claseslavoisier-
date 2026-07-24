@@ -1,0 +1,1024 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Álgebra Lineal | Clases Lavoisier</title>
+
+<link rel="stylesheet" href="css/styles.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+</head>
+
+<body>
+
+<nav>
+
+<div class="logo">
+
+<a href="index.html">
+
+<img src="images/logo.png" alt="Clases Lavoisier">
+
+</a>
+
+</div>
+
+<ul>
+
+<li><a href="index.html">Inicio</a></li>
+
+<li><a href="matematica.html">Matemática</a></li>
+
+<li><a href="#contacto">Contacto</a></li>
+
+</ul>
+
+</nav>
+
+<header class="hero">
+
+<div class="overlay">
+
+<h1>Álgebra Lineal</h1>
+
+<p>
+
+Matrices, determinantes, vectores y sistemas de ecuaciones.
+
+</p>
+
+</div>
+
+</header>
+
+<section class="contenido">
+
+<h2>¿Qué es el Álgebra Lineal?</h2>
+
+<p>
+
+El Álgebra Lineal estudia estructuras matemáticas como vectores, matrices y sistemas de ecuaciones lineales. Es una herramienta esencial en ingeniería, informática, física, economía, estadística e inteligencia artificial.
+
+</p>
+
+</section>
+  <section class="contenido">
+
+<h2>Sistemas de ecuaciones lineales</h2>
+
+<p>
+
+Un sistema de ecuaciones lineales está formado por dos o más ecuaciones que deben cumplirse simultáneamente.
+
+</p>
+
+<div class="caja importante">
+
+<pre>
+
+2x + y = 7
+
+x - y = 2
+
+</pre>
+
+</div>
+
+<p>
+
+Resolver un sistema consiste en encontrar los valores de las incógnitas que satisfacen todas las ecuaciones.
+
+</p>
+
+  </section>
+ <section class="contenido">
+
+<h2>Clasificación de los sistemas</h2>
+
+<table>
+
+<tr>
+
+<th>Tipo</th>
+
+<th>Características</th>
+
+</tr>
+
+<tr>
+
+<td>Sistema compatible determinado (SCD)</td>
+
+<td>Tiene una única solución.</td>
+
+</tr>
+
+<tr>
+
+<td>Sistema compatible indeterminado (SCI)</td>
+
+<td>Tiene infinitas soluciones.</td>
+
+</tr>
+
+<tr>
+
+<td>Sistema incompatible (SI)</td>
+
+<td>No tiene solución.</td>
+
+</tr>
+
+</table>
+
+ </section> 
+  <section class="contenido">
+
+<h2>Métodos de resolución</h2>
+
+<div class="cards">
+
+<div class="card">
+
+<h3>Sustitución</h3>
+
+<p>
+
+Se despeja una incógnita y se reemplaza en la otra ecuación.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>Igualación</h3>
+
+<p>
+
+Se despeja la misma incógnita en ambas ecuaciones y luego se igualan.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>Reducción</h3>
+
+<p>
+
+Se suman o restan ecuaciones para eliminar una incógnita.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>Gauss</h3>
+
+<p>
+
+Se transforma el sistema mediante operaciones elementales hasta obtener una forma escalonada.
+
+</p>
+
+</div>
+
+</div>
+
+  </section>
+  <section class="contenido">
+
+<h2>Matrices</h2>
+
+<p>
+
+Una matriz es un arreglo rectangular de números organizado en filas y columnas. Se utilizan para representar sistemas de ecuaciones, transformaciones y datos.
+
+</p>
+
+<div class="caja importante">
+
+<pre>
+
+      ⎡1  2⎤
+A =   ⎢3  4⎥
+      ⎣5  6⎦
+
+</pre>
+
+</div>
+
+<p>
+
+Esta es una matriz de 3 filas y 2 columnas (3×2).
+
+</p>
+
+</section>
+
+<section class="contenido">
+
+<h2>Tipos de matrices</h2>
+
+<table>
+
+<tr>
+
+<th>Tipo</th>
+
+<th>Descripción</th>
+
+</tr>
+
+<tr>
+
+<td>Matriz fila</td>
+
+<td>Tiene una sola fila.</td>
+
+</tr>
+
+<tr>
+
+<td>Matriz columna</td>
+
+<td>Tiene una sola columna.</td>
+
+</tr>
+
+<tr>
+
+<td>Matriz cuadrada</td>
+
+<td>Tiene igual cantidad de filas y columnas.</td>
+
+</tr>
+
+<tr>
+
+<td>Matriz diagonal</td>
+
+<td>Solo la diagonal principal puede tener valores distintos de cero.</td>
+
+</tr>
+
+<tr>
+
+<td>Matriz identidad</td>
+
+<td>La diagonal principal está formada por unos y el resto son ceros.</td>
+
+</tr>
+
+<tr>
+
+<td>Matriz nula</td>
+
+<td>Todos sus elementos son cero.</td>
+
+</tr>
+
+</table>
+
+</section>
+
+<section class="contenido">
+
+<h2>Operaciones con matrices</h2>
+
+<h3>Suma y resta</h3>
+
+<p>
+
+Solo pueden sumarse o restarse matrices del mismo orden.
+
+</p>
+
+<div class="caja ejemplo">
+
+<pre>
+
+A = |1 2|
+
+    |3 4|
+
+
+B = |5 6|
+
+    |7 8|
+
+
+A+B = |6 8|
+
+      |10 12|
+
+</pre>
+
+</div>
+
+</section>
+
+<section class="contenido">
+
+<h2>Multiplicación por un escalar</h2>
+
+<p>
+
+Consiste en multiplicar cada elemento de la matriz por un número.
+
+</p>
+
+<div class="caja ejemplo">
+
+<pre>
+
+2 · |1 2|
+
+    |3 4|
+
+=
+
+|2 4|
+
+|6 8|
+
+</pre>
+
+</div>
+
+</section>
+
+<section class="contenido">
+
+<h2>Multiplicación de matrices</h2>
+
+<p>
+
+Dos matrices pueden multiplicarse únicamente si el número de columnas de la primera coincide con el número de filas de la segunda.
+
+</p>
+
+<div class="caja importante">
+
+<pre>
+
+(m×n) · (n×p)
+
+</pre>
+
+</div>
+
+<div class="caja consejo">
+
+<p>
+
+El resultado será una matriz de orden:
+
+</p>
+
+<pre>
+
+m × p
+
+</pre>
+
+</div>
+
+</section>
+
+<section class="contenido">
+
+<h2>Matriz transpuesta</h2>
+
+<p>
+
+La matriz transpuesta se obtiene intercambiando filas por columnas.
+
+</p>
+
+<div class="caja ejemplo">
+
+<pre>
+
+A=
+
+|1 2 3|
+
+|4 5 6|
+
+
+Aᵀ=
+
+|1 4|
+
+|2 5|
+
+|3 6|
+
+</pre>
+
+</div>
+
+</section>
+  <section class="contenido">
+
+<h2>Determinantes</h2>
+
+<p>
+
+El determinante es un número asociado a una matriz cuadrada. Se utiliza para resolver sistemas de ecuaciones, calcular matrices inversas y estudiar transformaciones lineales.
+
+</p>
+
+<div class="caja importante">
+
+<h3>Matriz 2×2</h3>
+
+<pre>
+
+|a  b|
+
+|c  d|
+
+det(A)=ad−bc
+
+</pre>
+
+</div>
+
+<div class="caja ejemplo">
+
+<h3>Ejemplo</h3>
+
+<pre>
+
+|2 3|
+
+|1 4|
+
+det(A)=2·4−3·1
+
+det(A)=5
+
+</pre>
+
+</div>
+
+</section>
+
+<section class="contenido">
+
+<h2>Matriz inversa</h2>
+
+<p>
+
+Una matriz posee inversa únicamente cuando su determinante es distinto de cero.
+
+</p>
+
+<div class="caja importante">
+
+<pre>
+
+A · A⁻¹ = I
+
+</pre>
+
+</div>
+
+<p>
+
+Donde <strong>I</strong> representa la matriz identidad.
+
+</p>
+
+<div class="caja consejo">
+
+<p>
+
+Si el determinante es igual a cero, la matriz no tiene inversa.
+
+</p>
+
+</div>
+
+</section>
+
+<section class="contenido">
+
+<h2>Método de Gauss</h2>
+
+<p>
+
+El método de eliminación de Gauss transforma un sistema de ecuaciones en otro equivalente más sencillo mediante operaciones elementales sobre las filas.
+
+</p>
+
+<ol>
+
+<li>Escribir la matriz aumentada.</li>
+
+<li>Obtener ceros debajo del pivote.</li>
+
+<li>Continuar hasta lograr una matriz escalonada.</li>
+
+<li>Resolver mediante sustitución hacia atrás.</li>
+
+</ol>
+
+<div class="caja ejemplo">
+
+<h3>Ejemplo</h3>
+
+<pre>
+
+x + y = 5
+
+2x − y = 4
+
+↓
+
+x = 3
+
+y = 2
+
+</pre>
+
+</div>
+
+</section>
+
+<section class="contenido">
+
+<h2>Vectores</h2>
+
+<p>
+
+Un vector es una magnitud que posee módulo, dirección y sentido. Se representa mediante una flecha o como un conjunto ordenado de componentes.
+
+</p>
+
+<div class="caja importante">
+
+<pre>
+
+v = (3 , 4)
+
+</pre>
+
+</div>
+
+<table>
+
+<tr>
+
+<th>Elemento</th>
+
+<th>Descripción</th>
+
+</tr>
+
+<tr>
+
+<td>Módulo</td>
+
+<td>Longitud del vector.</td>
+
+</tr>
+
+<tr>
+
+<td>Dirección</td>
+
+<td>Orientación de la recta que contiene al vector.</td>
+
+</tr>
+
+<tr>
+
+<td>Sentido</td>
+
+<td>Hacia dónde apunta el vector.</td>
+
+</tr>
+
+</table>
+
+</section>
+
+<section class="contenido">
+
+<h2>Módulo de un vector</h2>
+
+<p>
+
+Para un vector en el plano:
+
+</p>
+
+<div class="caja importante">
+
+<pre>
+
+|v| = √(x²+y²)
+
+</pre>
+
+</div>
+
+<div class="caja ejemplo">
+
+<h3>Ejemplo</h3>
+
+<pre>
+
+v=(3,4)
+
+|v|=√(9+16)
+
+|v|=5
+
+</pre>
+
+</div>
+
+</section>
+
+<section class="contenido">
+
+<h2>Producto escalar</h2>
+
+<p>
+
+El producto escalar de dos vectores genera un número real y permite calcular ángulos y proyecciones.
+
+</p>
+
+<div class="caja importante">
+
+<pre>
+
+u·v = x₁x₂ + y₁y₂
+
+</pre>
+
+</div>
+
+<div class="caja ejemplo">
+
+<h3>Ejemplo</h3>
+
+<pre>
+
+u=(2,3)
+
+v=(4,5)
+
+u·v
+
+=2·4+3·5
+
+=23
+
+</pre>
+
+</div>
+
+</section>
+
+<section class="contenido">
+
+<h2>Errores frecuentes</h2>
+
+<div class="caja error">
+
+<ul>
+
+<li>Sumar matrices de distinto orden.</li>
+
+<li>Multiplicar matrices incompatibles.</li>
+
+<li>Calcular mal el signo del determinante.</li>
+
+<li>Olvidar verificar si el determinante es cero antes de buscar la inversa.</li>
+
+<li>Confundir el producto escalar con la multiplicación de matrices.</li>
+
+</ul>
+
+</div>
+
+</section>
+ <section class="contenido">
+
+<h2>Espacios vectoriales (Introducción)</h2>
+
+<p>
+
+Un espacio vectorial es un conjunto de vectores sobre los cuales pueden realizarse operaciones de suma y multiplicación por un escalar, cumpliendo determinadas propiedades algebraicas.
+
+</p>
+
+<div class="caja importante">
+
+<h3>Propiedades principales</h3>
+
+<ul>
+
+<li>Cierre para la suma.</li>
+
+<li>Cierre para la multiplicación por escalares.</li>
+
+<li>Existencia del vector nulo.</li>
+
+<li>Existencia del vector opuesto.</li>
+
+<li>Conmutatividad y asociatividad.</li>
+
+</ul>
+
+</div>
+
+</section>
+
+<section class="contenido">
+
+<h2>Ejercicio resuelto</h2>
+
+<div class="caja ejemplo">
+
+<h3>Resolver el sistema</h3>
+
+<pre>
+
+x + y = 7
+
+2x − y = 5
+
+</pre>
+
+<p>
+
+Sumando ambas ecuaciones:
+
+</p>
+
+<pre>
+
+3x = 12
+
+x = 4
+
+</pre>
+
+<p>
+
+Reemplazando en la primera ecuación:
+
+</p>
+
+<pre>
+
+4 + y = 7
+
+y = 3
+
+</pre>
+
+<p>
+
+<b>Solución:</b>
+
+</p>
+
+<pre>
+
+(x,y) = (4,3)
+
+</pre>
+
+</div>
+
+</section>
+
+<section class="contenido">
+
+<h2>Ejercicios propuestos</h2>
+
+<ol>
+
+<li>Clasificar un sistema como SCD, SCI o SI.</li>
+
+<li>Resolver un sistema de dos ecuaciones por sustitución.</li>
+
+<li>Calcular la suma de dos matrices de orden 2×2.</li>
+
+<li>Multiplicar una matriz por un escalar.</li>
+
+<li>Calcular el determinante de una matriz 2×2.</li>
+
+<li>Determinar si una matriz posee inversa.</li>
+
+<li>Calcular el módulo de un vector.</li>
+
+<li>Resolver un producto escalar.</li>
+
+</ol>
+
+</section>
+
+<section class="contenido">
+
+<h2>📚 Formulario de Álgebra Lineal</h2>
+
+<table>
+
+<tr>
+
+<th>Concepto</th>
+
+<th>Fórmula</th>
+
+</tr>
+
+<tr>
+
+<td>Determinante 2×2</td>
+
+<td>det(A)=ad−bc</td>
+
+</tr>
+
+<tr>
+
+<td>Matriz inversa</td>
+
+<td>A·A⁻¹=I</td>
+
+</tr>
+
+<tr>
+
+<td>Módulo de un vector</td>
+
+<td>|v|=√(x²+y²)</td>
+
+</tr>
+
+<tr>
+
+<td>Producto escalar</td>
+
+<td>u·v=x₁x₂+y₁y₂</td>
+
+</tr>
+
+<tr>
+
+<td>Multiplicación de matrices</td>
+
+<td>(m×n)·(n×p)</td>
+
+</tr>
+
+</table>
+
+</section>
+
+<section class="contenido">
+
+<h2>Aplicaciones del Álgebra Lineal</h2>
+
+<div class="cards">
+
+<div class="card">
+
+<h3>🤖 Inteligencia Artificial</h3>
+
+<p>
+
+Las redes neuronales y el aprendizaje automático utilizan matrices y vectores para procesar información.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>💻 Computación Gráfica</h3>
+
+<p>
+
+Las transformaciones de imágenes y modelos 3D se realizan mediante matrices.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>📊 Economía</h3>
+
+<p>
+
+Permite modelar sistemas económicos y resolver problemas de optimización.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>⚙️ Ingeniería</h3>
+
+<p>
+
+Se utiliza en análisis estructural, control automático y simulaciones numéricas.
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="contenido">
+
+<h2>Conceptos clave</h2>
+
+<ul>
+
+<li>Una matriz organiza información en filas y columnas.</li>
+
+<li>Los sistemas lineales pueden resolverse por distintos métodos.</li>
+
+<li>El determinante indica propiedades importantes de una matriz.</li>
+
+<li>Una matriz es invertible solo si su determinante es distinto de cero.</li>
+
+<li>Los vectores representan magnitudes con módulo, dirección y sentido.</li>
+
+</ul>
+
+</section>
+
+<section class="contenido">
+
+<h2>Resumen</h2>
+
+<p>
+
+El Álgebra Lineal proporciona herramientas fundamentales para resolver sistemas de ecuaciones, trabajar con matrices y vectores y modelar problemas complejos en ciencia y tecnología. Es una disciplina indispensable en ingeniería, informática, economía, física y análisis de datos.
+
+</p>
+
+</section>
+
+<section class="contenido" style="text-align:center;">
+
+<a class="btn" href="matematica.html">
+
+← Volver a Matemática
+
+</a>
+
+</section>
+
+<section id="contacto">
+
+<h2>¿Necesitás ayuda con Álgebra Lineal?</h2>
+
+<p>
+
+Prepará parciales, finales o exámenes de ingreso con clases particulares adaptadas a tu nivel.
+
+</p>
+
+<a class="btn whatsapp"
+
+href="https://wa.me/5491167036160?text=Hola,%20quiero%20consultar%20por%20clases%20de%20Álgebra%20Lineal."
+
+target="_blank">
+
+Consultar por WhatsApp
+
+</a>
+
+</section>
+
+<script src="js/script.js"></script>
+
+</body>
+
+</html> 
