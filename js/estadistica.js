@@ -1,42 +1,32 @@
 function calcularEstadistica() {
 
-    let texto = document.getElementById("datos").value;
+    let texto = document.getElementById("datos").value;
 
-    let datos = texto
-        .split(",")
-        .map(numero => Number(numero.trim()))
-        .filter(numero => !isNaN(numero));
+    let datos = texto
+        .split(",")
+        .map(numero => Number(numero.trim()))
+        .filter(numero => !isNaN(numero));
 
-    if (datos.length === 0) {
+    if (datos.length === 0) {
+        document.getElementById("resultado").innerHTML =
+        "<p>No ingresaste datos válidos.</p>";
+        return;
+    }
 
-        document.getElementById("resultado").innerHTML =
-        "<p>No ingresaste datos válidos.</p>";
+    let suma = 0;
 
-        return;
+    for (let numero of datos) {
+        suma += numero;
+    }
 
-    }
+    let media = (suma / datos.length).toFixed(2);
 
-    let suma = 0;
-
-for (let numero of datos) {
-
-    suma += numero;
+    document.getElementById("resultado").innerHTML = `
+        <h3>Resultados</h3>
+        <p><strong>Datos:</strong> ${datos.join(", ")}</p>
+        <p><strong>Cantidad:</strong> ${datos.length}</p>
+        <p><strong>Suma:</strong> ${suma}</p>
+        <p><strong>Media:</strong> ${media}</p>
+    `;
 
 }
-
-let media = (suma / datos.length).toFixed(2);
-
-document.getElementById("resultado").innerHTML =
-
-`
-<h3>Resultados</h3>
-
-<p><strong>Datos:</strong> ${datos.join(", ")}</p>
-
-<p><strong>Cantidad:</strong> ${datos.length}</p>
-
-<p><strong>Suma:</strong> ${suma}</p>
-
-<p><strong>Media:</strong> ${media}</p>
-
-`;
